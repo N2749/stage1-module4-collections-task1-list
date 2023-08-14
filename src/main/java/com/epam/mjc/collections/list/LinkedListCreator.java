@@ -5,8 +5,6 @@ import java.util.List;
 
 public class LinkedListCreator {
 
-    /* _If the number from the `List<Integer>` is odd, then insert this number at the beginning of the `LinkedList<Integer>`,
-    otherwise, insert the number at the end_ of the `LinkedList<Integer>`.*/
     public LinkedList<Integer> createLinkedList(List<Integer> sourceList) {
         LinkedList<Integer> result = new LinkedList<>();
         for (Integer integer : sourceList) {
